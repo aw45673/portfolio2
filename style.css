@@ -1,0 +1,25 @@
+h1{
+    color:aqua;
+}
+h2,p{
+    color:blueviolet;
+    
+    text-align: center;
+}
+/* *{
+    border:solid;
+} */
+.header{
+    display:flex;
+    background-color:pink ;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    align-self: center;
+}
